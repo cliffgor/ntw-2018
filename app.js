@@ -2,8 +2,8 @@ const http = require('http');
 const Bot = require('messenger-bot');
 
 let bot = new Bot({
-    token: process.env.PAGE_TOKEN || '',
-    verify: process.env.VERIFY_TOKEN || '',
+    token: process.env.PAGE_TOKEN || 'EAAXxocYhZAMABAMb0Cdp4HxZAyXa28olqCoLyKxxDHCX8KbbipAGUl6fkZAX0LEEU96J74mZAeUwNsb3sF81PThxWDxbgZAFW8WH7ZCpPDxMICw5fTT2lKzFfJZCwcZCdIsZA7RywhtehW1ysrRxqGTaIwQ21PrIiQJBE3ATZCpDi8ZC0dDhUMtQEGO',
+    verify: process.env.VERIFY_TOKEN || 'verified',
 });
 
 bot.on('error', (err) => {
