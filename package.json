@@ -9,14 +9,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/devc-nairobi/ntw-hello-bot.git"
+        "url": ""
     },
-    "author": "",
+    "author": "Cliff Gor",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/devc-nairobi/ntw-hello-bot/issues"
+        "url": "https://github.com/cliffgor/ntw-2018"
     },
-    "homepage": "https://github.com/devc-nairobi/ntw-hello-bot#readme",
+    "homepage": "https://github.com/cliffgor/ntw-2018#readme",
     "dependencies": {
         "messenger-bot": "^2.4.0"
     }
